@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-tutorial",
+  "version": "1.0.0",
+  "description": "Training project based on the official Gatsby tutorial",
+  "main": "index.ls",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrafSoul/gatsby-tutorial.git"
+  },
+  "keywords": [
+    "Gatsby",
+    "React",
+    "Tutorial"
+  ],
+  "author": "Dmitriy Zatulovskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrafSoul/gatsby-tutorial/issues"
+  },
+  "homepage": "https://github.com/GrafSoul/gatsby-tutorial#readme"
+}
