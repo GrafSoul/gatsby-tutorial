@@ -2,9 +2,16 @@
   "name": "gatsby-tutorial",
   "version": "1.0.0",
   "description": "Training project based on the official Gatsby tutorial",
-  "main": "index.ls",
+  "private": true,
+  "main": "src/pages/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,5 +27,13 @@
   "bugs": {
     "url": "https://github.com/GrafSoul/gatsby-tutorial/issues"
   },
-  "homepage": "https://github.com/GrafSoul/gatsby-tutorial#readme"
+  "homepage": "https://github.com/GrafSoul/gatsby-tutorial#readme",
+  "dependencies": {
+    "gatsby": "^3.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
 }
