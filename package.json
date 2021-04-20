@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/GrafSoul/gatsby-tutorial#readme",
   "dependencies": {
+    "@emotion/react": "^11.1.5",
     "gatsby": "^3.2.1",
     "gatsby-plugin-sass": "^4.3.0",
     "gatsby-plugin-typography": "^3.3.0",
